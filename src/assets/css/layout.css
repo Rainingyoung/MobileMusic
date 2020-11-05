@@ -1,0 +1,47 @@
+html,body,#root,.App,.layou{
+    width: 100%;
+}
+header{
+    height: 5.25rem ;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d43c33;
+    padding: 0px 0.625rem;
+}
+.header_music{
+    font-size: 1.25rem;
+    font-family: '宋体';
+    line-height: 5.25rem;
+    color:#fff;
+}
+.header_app{
+    width: 6.25rem;
+    height: 2.25rem;
+    border-radius: 1.125rem;
+    background-color: #fff;
+    font-size: 0.875rem;
+    line-height: 2.25rem;
+    font-weight: '宋体';
+    color: #d43c33;
+}
+nav{
+    height: 2.5rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    font-size: 1rem;
+    font-family: '微软雅黑';
+    color: #000;
+    line-height: 2.5rem;
+}
+.nav_active{
+    color: #d43c33;
+    border-bottom: 0.125rem solid #d43c33;
+    padding:0rem 0.3125rem;
+}
+
+

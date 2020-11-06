@@ -1,6 +1,5 @@
 import {Component} from 'react';
 import {NavLink,Switch,Redirect,Route} from 'react-router-dom';
-import {SyncOutlined} from '@ant-design/icons';
 import Index from './Index'
 import Menu from './Menu'
 import Search from './Search'
@@ -16,7 +15,7 @@ export default  class Layout extends Component{
         return(
             <div className='layout'>
                 <header>
-                    <div className='header_music'><SyncOutlined spin style={{ fontSize: '1.5rem', color: '#fff' }} /> 网易云音乐</div>
+                    <div className='header_music'><i className="header_icon"></i>网易云音乐</div>
                     <div className='header_app'>下载APP</div>
                 </header>
                 <nav>
@@ -32,7 +31,6 @@ export default  class Layout extends Component{
                    <Redirect path='*' to='/index'></Redirect> 
                 </Switch>     
                 </main>
-
             </div>
         )
     }

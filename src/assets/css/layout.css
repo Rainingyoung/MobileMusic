@@ -16,6 +16,13 @@ header{
     line-height: 5.25rem;
     color:#fff;
 }
+.header_icon{
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.2rem;
+    background: url(./../images/icon.jpg) no-repeat -0.8rem -0.54rem;
+    background-size: 3.125rem ;
+}
 .header_app{
     width: 6.25rem;
     height: 2.25rem;
@@ -38,10 +45,9 @@ nav a{
     color: #000;
     line-height: 2.5rem;
 }
-.nav_active{
+.nav_active{ 
     color: #d43c33;
     border-bottom: 0.125rem solid #d43c33;
-    padding:0rem 0.3125rem;
 }
 
 

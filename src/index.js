@@ -8,6 +8,7 @@ import http from './utils/http'
 
 //封装好的方法添加到react原型上
 React.Component.prototype.$axios = http;
+React.Component.prototype.$URL = 'http://localhost:4000';
 
 ReactDOM.render(
   <React.StrictMode>

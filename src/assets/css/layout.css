@@ -30,14 +30,17 @@ header{
     background-color: #fff;
     font-size: 0.875rem;
     line-height: 2.25rem;
+    text-align: center;
     font-weight: '宋体';
     color: #d43c33;
 }
 nav{
+    width: 100%;
     height: 2.5rem;
     background-color: #fff;
     display: flex;
     justify-content: space-around;
+    border-bottom: 0.0625rem solid rgba(126, 125, 125, 0.1);
 }
 nav a{
     font-size: 1rem;
@@ -48,6 +51,9 @@ nav a{
 .nav_active{ 
     color: #d43c33;
     border-bottom: 0.125rem solid #d43c33;
+}
+main{
+    width: 100%;
 }
 
 

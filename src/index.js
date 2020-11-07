@@ -7,7 +7,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import http from './utils/http'
 
 //封装好的方法添加到react原型上
-React.Component.prototype.$axios = http;
+React.Component.prototype.$http = http;
 React.Component.prototype.$URL = 'http://localhost:4000';
 
 ReactDOM.render(

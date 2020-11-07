@@ -1,9 +1,7 @@
 import {Component} from 'react';
 import {Link} from 'react-router-dom';
-// import Hotsong from './Hotsong';
 import './../assets/css/Index.css'
 import axios from './../utils/http'
-import {DollarOutlined} from '@ant-design/icons';
 export default  class Index extends Component{
     constructor(){
         super();
@@ -26,7 +24,6 @@ export default  class Index extends Component{
        }
     getLatest(){
         axios.get("/proxy/personalized/newsong").then(res=>{
-            console.log(res); 
             this.setState({
                 latest:res.result
             })

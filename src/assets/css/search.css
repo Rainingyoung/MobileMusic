@@ -1,0 +1,224 @@
+.Search{
+    width: 100%;
+    height: 32.24rem;
+    background-color:rgba(207, 203, 203, 0.1);
+    position: relative;
+}
+.Search>div{
+    display: inline-flex;
+    margin: 0.9375rem 0rem 1.875rem ;
+    box-sizing: border-box;
+    padding: 0rem 0.625rem;
+}
+.search_icon{
+    display: inline-block;
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 0.9375rem 0rem 0rem 0.9375rem;
+    background: url(./../images/放大镜.svg) no-repeat 0.66rem 0.48rem rgba(190, 189, 189,0.2);
+    background-size: 1rem;
+}
+.search_svg{
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0.375rem 0.25rem;
+    background: url(./../images/close.svg) no-repeat;
+}
+.search_inp{
+    width: 17.5rem;
+    height: 1.875rem;
+    outline-style: none;
+    background-color: rgba(190, 189, 189,0.2);
+    border: none;
+    font-size: 0.875rem;
+    color: rgb(190, 189, 189);
+    text-indent: 0.375rem ;
+}
+.search_pan{
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 0rem 0.9375rem 0.9375rem 0rem;
+    background-color: rgba(190, 189, 189,0.2);
+}
+.search_tit{
+    font-size: 0.75rem;
+    text-indent: 0.625rem;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+}
+.search_main{
+     display: flex;
+     flex-wrap: wrap;
+}
+.search_main span{
+    display: inline-block;
+    margin: 0rem 0.5rem 0.5rem 0rem;
+    box-sizing: border-box;
+    padding: 0rem 0.875rem;
+    text-align: center;
+    line-height: 1.875rem;
+    white-space:nowrap;
+    border-radius: 1rem;
+    border: 0.0625rem solid rgba(0, 0, 0,0.2);
+    font-size: 0.875rem;
+    font-family:'微软雅黑';
+}
+.search_flex{
+    width: 100%;
+    height: 2.8125rem;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0rem 0.625rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.search_tet{
+    margin-top: 0.35rem;
+    display: block;
+    width: 30rem;
+    white-space:nowrap;
+    line-height: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: 0.875rem;
+    font-size: '宋体';
+    margin-left: 0.5rem;
+}
+.search_Icon{
+    margin-top: 0.35rem;
+    display: block;
+    width: 1.8rem;
+    height: 1rem;
+    background: url(./../images/clock.svg) no-repeat;
+}
+.search_close{
+    margin-top: 0.5rem;
+    display: block;
+    width: 1.3rem;
+    height: 1rem;
+    margin-right: 0.375rem;
+    background: url(./../images/down.svg) no-repeat;
+}
+.Search_art{
+    width: 100%;
+    height: 29rem;
+    position: absolute;
+    top: 3.125rem ;
+    background-color: #fff;
+    display: none;
+}
+.Search_artil{
+    width: 100%;
+    height: 29rem;
+    position: absolute;
+    top: 3.125rem ;
+    background-color: #fff;
+    display: block;
+}
+.Primary{
+    width: 100%;
+    height: 29rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color:rgba(207, 203, 203, 0.1);
+}
+.Primary>h4{
+    color: #507daf;
+    font-size: 0.75rem;
+    height: 3.125rem;
+    font-family: '宋体';
+    line-height: 3.125rem;
+    text-indent: 0.625rem;
+    border-bottom: 0.0625rem solid rgba(126, 125, 125, 0.1);
+}
+.search_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0.0625rem solid rgba(126, 125, 125, 0.1);
+}
+.search_fdj{
+    display: block;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-left: 0.625rem;
+    background: url(./../images/放大镜.svg) no-repeat 0.25rem 0.2rem ;
+    background-size:1rem ;
+}
+.search_list p{
+    font-size: 0.75rem;
+    line-height: 2.8125rem;
+    font-family: '微软雅黑';
+    color: #333;
+    margin-left: 0.5rem;
+}
+.Search_content{
+    margin-top: 1.25rem;
+    width: 100%;
+    height: 29rem;
+    position: absolute;
+    top: 3.125rem ;
+    background-color: #fff;
+    display: none;
+}
+.Search_cont{
+    margin-top: 1.25rem;
+    width: 100%;
+    height: 29rem;
+    position: absolute;
+    top: 3.125rem ;
+    background-color: #fff;
+    display: block;
+}
+.sear_mian{
+    width: 100%;
+    height: 29rem;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(207, 203, 203, 0.1);
+    box-sizing: border-box;
+    padding-left: 0.625rem;
+}
+.sear_mian h4{
+    font-size: 0.75rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+}
+.sear_mian a{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.0625rem solid rgba(207, 203, 203, 0.1);
+}
+.sear_mian a span span{
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+    text-align: left;
+    font-family: '微软雅黑';
+    line-height: 1.75rem;
+    color: #000;
+}
+.sear_mian a span p{
+    font-size: 0.75rem;
+    font-family: '微软雅黑';
+    line-height: 1.25rem;
+    color: #888;
+}
+.div_icon{
+    display: inline-block;
+    width: 1rem;
+    height: 0.75rem;
+    background:url(./../images/index_icon_2x.png) no-repeat -0.02rem 0.15rem;
+    background-size:13rem ;
+}
+.div_play{
+    margin: 0.7rem 1.2rem;
+    width: 2rem;
+    height:2rem;
+    text-align: center;
+    background:url(./../images/index_icon_2x.png) no-repeat -1.35rem 0.25rem ;
+    background-size: 11rem 7rem   ;
+}

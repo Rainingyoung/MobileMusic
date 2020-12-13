@@ -38,7 +38,7 @@ export default  class Menu extends Component{
                            <Link to='/music' key={item.id}>
                              <div>
                                 <span className="menu_text"> {this.state.menulist.indexOf(item)+1>10?this.state.menulist.indexOf(item)+1:'0'+(this.state.menulist.indexOf(item)+1)}</span>
-                                <span>
+                                <span className="Menu_box">
                                     <em>{item.name}</em>
                                     <p><i className='menu_icon'></i>{!item.ar[1]?item.ar[0].name+'-'+item.al.name:item.ar[0].name+'/'+item.ar[1].name+'-'+item.al.name}</p>
                                 </span> 

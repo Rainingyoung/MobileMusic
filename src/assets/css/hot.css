@@ -1,0 +1,141 @@
+.Hotsong{
+    width: 100%;
+}
+.Hot_header{
+    padding: 1.875rem 0.625rem 1.875rem 0.8rem;
+    display: flex;
+    background-color: #666;
+}
+.Hot_tit{
+    font-size: 0.75rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #666;
+    background-color: #eeeff0;
+    line-height: 1.5rem;
+    padding: 0rem 0.6rem ;
+}
+.Hot_tt{
+    margin-left: 1rem;
+    width: 11.875rem;
+    height: 7.875rem;
+}
+.Hot_port>img{
+    width: 1.875rem ;
+    height: 1.875rem;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 0.25rem;
+}
+.Hot_port{
+    margin-top: 1.25rem;
+    font-size: 0.85rem;
+    font-family: "微软雅黑";
+    color: #ccc;
+}
+.Hot_tt h4{
+    width: 10.875rem;
+    line-height: 1.25rem;
+    font-size: 1rem;
+    font-family: '微软雅黑';
+    color: #fff;
+}
+.Hot_con{
+    display: block;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom:32.5rem;
+    right: 10.6rem;
+    background: url(../images/Hot_icon.png)no-repeat -3.6rem -0.13rem;
+    background-size: 6rem ;
+}
+.Hot_ion{
+    position: absolute;
+    top: 0rem ;
+    right: 0rem ;
+    color: #fff;
+    text-indent: 1rem;
+    background:url(./../images/下载.svg) no-repeat 0rem 0.1rem;
+    background-size:  0.75rem;
+}
+.Hot_txt{
+    position: absolute;
+    top: 0.6rem;
+    display: block;
+    width: 2.5rem;
+    height: 1rem;
+    text-align: center;
+    border-radius: 0rem 0.6rem 0.6rem 0rem;
+    line-height: 1rem;
+    font-size: 0.75rem;
+    font-family: "微软雅黑";
+    color: #fff;
+    background-color: rgba(217,48,48,.8);
+}
+.Hot_img{
+    width: 7.875rem;
+    height: 7.875rem;
+    position: relative;
+}
+.Hot_img>img{
+    width: 100%;
+    height: 100%;
+}
+.Hot_text{
+    width: 2.5rem;
+    height: 3.5625rem;
+    text-align: center;
+    line-height: 3.5625rem;
+    font-size: 1.25rem;
+    color: #999;
+    font-weight: 580;
+}
+.Hot_mian a{
+    display: flex;
+    border-bottom: 0.0625rem solid rgba(207, 203, 203, 0.1); ;
+}
+.Hot_mian a>div{
+    display: flex;
+    flex-direction: row;
+}
+.Hot_mian a>div em{
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+    text-align: left;
+    font-family: '微软雅黑';
+    line-height: 1.75rem;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Hot_box{
+    width: 17.5rem;
+}
+.Hot_mian a>div p{
+    font-size: 0.75rem;
+    font-family: '微软雅黑';
+    line-height: 1.25rem;
+    text-align: left;
+    color: #888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Hot_icon{
+    display: inline-block;
+    width: 1rem;
+    height: 0.75rem;
+    background:url(./../images/index_icon_2x.png) no-repeat -0.02rem 0.15rem;
+    background-size:13rem ;
+}
+.Hot_play{
+    margin: 0.7rem 0rem;
+    width: 2rem;
+    height:2rem;
+    text-align: center;
+    background:url(./../images/index_icon_2x.png) no-repeat -1.35rem 0.25rem ;
+    background-size: 11rem 7rem   ;
+}

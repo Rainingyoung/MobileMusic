@@ -8,6 +8,7 @@ export default  class Index extends Component{
         this.state={
             recomlist:[],
             latest:[],
+            id:""
         }
     }
     //生命周期用来请求数据
@@ -29,22 +30,23 @@ export default  class Index extends Component{
             })
         })
        }
+       //跳转页面给组件传递参数
+   
     render(){
         return(
             <div className='Index'>
                 <h2>推荐歌单</h2>
-                <ul>
+                <div className="index_header">
                     {
-                     this.state.recomlist.map(item=>{
+                     this.state.recomlist.map(item=>{   
                        return(
-                            <li key={item.id}>
-                                {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
-                                <a href="#"><img src={item.picUrl}></img></a>
+                            <Link key={item.id} to={`/Hotsong?id=${item.id}`}>
+                                <img src={item.picUrl} alt="图片开小差了"></img>
                                 <p>{item.name}</p>
                                 <span className='ul_iocn'>{item.playCount>=10000?(item.playCount/10000).toFixed(1)+'万':item.playCount}</span>
-                            </li>)})
+                            </Link>)})
                     }
-                </ul>
+                </div>
                 <h2>最新音乐</h2> 
                 <div className="Index_mian">
                     {

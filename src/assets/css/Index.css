@@ -13,28 +13,24 @@ h2{
     color: #000;
     line-height: 1.25rem;
 }
-ul{
+.index_header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 2rem;
 }
-ul li{
+.index_header a{
+    display: block;
     width: 32%;
     height: 9.5rem;
     position: relative;
     margin-bottom: 0.625rem;
 }
-ul li a{
+.index_header a img{
     width: 100%;
-    display: block;
     height: 7.5rem;
 }
-ul li a img{
-    width: 100%;
-    height: 100%;
-}
-ul p{
+.index_header p{
     margin-top: 0.525rem;
     font-size: 0.75rem;
     word-wrap:break-word;
@@ -49,7 +45,7 @@ ul p{
     text-indent: 0.3125rem;
     line-height: 0.95rem;
 }
-ul li span{
+.index_header a span{
     position: absolute;
     right: 0.35rem;
     top: 0.3rem ;
@@ -60,7 +56,7 @@ ul li span{
 }
 .ul_iocn{
     background:url(./../images/下载.svg) no-repeat 0rem 0.1rem;
-    background-size:  0.75rem   ;
+    background-size:  0.75rem;
 }
 .Index_mian{
     box-sizing: border-box;
